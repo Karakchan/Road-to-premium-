@@ -1,3 +1,5 @@
+// D-1
+
 //JS case sensitive
 
 // =>Variable
@@ -62,3 +64,10 @@ let age = 23;
 console.log(!(age >= 18 && name.includes("min min")));
 
 // ------------------------------------------------------------------------
+
+// D - 2
+
+
+
+
+//hae haee 
