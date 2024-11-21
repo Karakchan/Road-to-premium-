@@ -68,6 +68,36 @@ console.log(!(age >= 18 && name.includes("min min")));
 // D - 2
 // D - 2 Continus
 
+let twice = function(x,modifier){
+    let result = modifier(x);
+    return result * 2;
+}
 
+let result = twice(250, function(x){
+    return x - 200;
+});
 
-//hae haee 
+console.log(result);
+
+// ------------------------------------------------------------------------
+
+// => arrow function
+let sum = (a,b)=> a+b
+
+console.log(sum(2,3)) //5
+
+// ------------------------------------------------------------------------
+
+// => array 
+
+let names = ['kyaw kayw','su su','nu nu',
+    [
+        "index catch"
+    ]
+];
+
+// // names[1] = "aye aye";
+// names.push = "khin khin";
+// console.log(names[names.length - 1]);
+console.log(names);
+console.log(names[3][0]);
